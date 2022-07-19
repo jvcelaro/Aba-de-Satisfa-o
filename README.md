@@ -1,6 +1,5 @@
 # Aba-de-Satisfa-o
 
-Este Projeto te ensina a fazer uma aba de satisfação usando front end de maneira simples.
-
+This Project teaches you how to make a satisfaction tab using the front end in a simple way.
 
 By: João Vitor de Carvalho
