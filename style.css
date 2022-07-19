@@ -1,0 +1,135 @@
+html{
+    background-color: #141418;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.rate , .thank{
+    background-color: #202531;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width:90%;
+    height:40vh;
+    color:#fff;
+    margin:30vh auto;
+    padding:8% 4%;
+}
+
+h3{
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+p{  margin-top: 8%;
+    color:#989EAA;
+    font-size: 0.75rem;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-top: 10%;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+li,.star span{
+    border-radius: 50%;
+    background-color: #272E38;
+    color: #818A96;
+    font-size: 0.75rem;
+    padding:6%;
+    width:1.5vw;
+    height:1.5vw ;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.star span{
+    color: #F97918;
+    padding:4%;
+}
+.star {
+    padding-bottom: 12%;
+}
+li:hover{
+    background-color: #F97918;
+    color:#fff;
+
+}
+button{
+    margin-top: 10%;
+    text-align: center;
+    color: #fff;
+    background-color: #F97918;
+    padding-top:4%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+    border: none;
+    width:100%;
+    font-size: 1.1 rem;
+}
+
+button:hover{
+    background-color:#fff ;
+    color:#F97918;
+}
+
+.svg,h4, .thank p{
+    text-align: center;
+}
+
+#value{
+    margin:5% auto;
+    width:50%;
+    background-color: #242E3B;
+    color:hsla(26, 95%, 54%, 0.694);
+    border-radius:10px;
+    text-align: center;
+    font-size: 0.7rem;
+    padding:2% 4%;
+}
+@media screen and (min-width: 600px) {
+    .rate , .thank{
+        width:40%;
+        padding:6% 2%;
+    }
+
+    button{
+        margin-top: 6%;
+    }
+    ul{
+        margin-top: 6%;
+}
+
+p{  
+    margin-top:4%;
+}
+@media screen and (min-width: 992px) {
+    .rate , .thank{
+        width:25%;
+        height: 38vh;
+        margin:20% auto;
+        padding:2%;
+    }
+    button{
+        margin-top: 10%;
+    }
+    ul{
+        margin-top: 10%;
+}
+p{  
+    margin-top:6%;
+}
+
+li,.star span{
+    padding:5%;
+    width:0.8vw;
+    height:0.8vw ;
+}
+}   
+}
